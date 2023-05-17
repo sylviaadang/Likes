@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+
+<body>
+    <div class="nav">
+        <h1>Network</h1>
+    </div>
+    <div class="text">
+        <h2>Your Feed</h2>
+    </div>
+
+    <div class="container">
+        <div class="left-side">
+            <img src="icons/user-circle.png" alt="user circle">
+            <p class="blueText">Add and avatar</p>
+            <p>James Doe</p>
+        </div>
+
+        <div class="right-side">
+            <div class="top-right">
+                <div class="top-top-right">
+                    <h2>Neil M</h2>
+                    <div class="likes">
+                        <h2> <span id="first-box-counter">9</span> like(s)</h2>
+                        <button onclick="like()"> Like </button>
+                    </div>
+                </div>
+
+                <div class="top-top-bottom">
+                    <p> I just set up this new discord bot, let me <br> know what you all think. <span
+                            class="blueLink">link</span></p>
+                </div>
+            </div>
+
+            <div class="middle-right">
+                <div class="top-top-right-middle">
+                    <h2>Nichole K</h2>
+                    <div class="likes2">
+                        <h2> <span id="second-box-counter">12</span> like(s)</h2>
+                        <button onclick="addLike()"> Like </button>
+                    </div>
+                </div>
+
+                <div class="top-top-middle-bottom">
+                    <p> Just finished my <span class="blueLink">next comic,</span> check it out.</p>
+                </div>
+            </div>
+
+            <div class="bottom-right">
+                <div class="top-top-right-bottom">
+                    <h2>Jim R</h2>
+                    <div class="likes3">
+                        <h2> <span id="third-box-counter">9</span> like(s)</h2>
+                        <button onclick="moreLikes()"> Like </button>
+                    </div>
+                </div>
+
+                <div class="top-top-bottom-bottom">
+                    <p> I can't stop listening to the <span class="blueLink">new album.</span> <br> Who else is liking it?</p>
+                </div>
+            </div>
+
+
+                    <!-- <h5 class="plural">Plural:<span class="italicize"> ninjas</span></h5> -->
+                    <!-- <button onclick="like()"> 13 Likes </button> -->
+
+
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>

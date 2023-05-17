@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 1000px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 1000px;
+    background-color: black;
+    color: white;
+    height: 45px;
+}
+
+h1 {
+    margin-left: 40px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+}
+
+img {
+    width: 100px;
+    padding: 50px 50px 30px 100px;
+}
+
+.blueText {
+    color: rgb(38, 38, 215);
+    text-decoration: underline;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: larger;
+    padding-top: 20px;
+}
+
+.top-right{
+    width: 670px;
+    height: 180px;
+    margin: 0px 0px 20px 20px;
+    border: 3px solid black;
+}
+.top-top-right {
+    display: flex;
+}
+
+.top-top-right > h2 {
+    margin-left: 30px;
+    margin-top: 12px;
+}
+
+.likes {
+    display: flex;
+    justify-content: end;
+    width: 500px;
+    height: 50px;
+    /* border: 2px solid red; */
+}
+
+.likes > button {
+    width: 75px;
+    font-size: large;
+    height: 40px;
+    margin: 20px 20px 30px 30px;
+    background-color: #FFD966;
+    box-shadow: 3px 3px 3px black;
+    ;
+}
+
+.likes > h2 {
+    margin-top: 10px;
+}
+
+.top-top-bottom > p{
+    width: 550px;
+    text-align: left;
+    padding: 15px;
+    margin-left: 30px;
+}
+
+.blueLink {
+    color: rgb(38, 38, 215);
+    text-decoration: underline;
+}
+
+/* middle right */
+
+.middle-right {
+    width: 670px;
+    height: 180px;
+    margin: 0px 0px 20px 20px;
+    border: 3px solid black;
+}
+
+.top-top-right-middle {
+    display: flex;
+}
+
+.top-top-right-middle > h2 {
+    margin-top: 12px;
+    width: 190px;
+}
+
+.likes2 {
+    display: flex;
+    justify-content: end;
+    width: 500px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.likes2 > button {
+    width: 75px;
+    font-size: large;
+    height: 40px;
+    margin: 20px 20px 30px 30px;
+    background-color: #FFD966;
+    box-shadow: 3px 3px 3px black;
+    ;
+}
+
+.likes2 > h2 {
+    margin-top: 10px;
+}
+
+.top-top-middle-bottom > p{
+    width: 550px;
+    text-align: left;
+    padding: 15px;
+    margin-left: 30px;
+}
+
+/* bottom right */
+
+.bottom-right {
+    width: 670px;
+    height: 180px;
+    margin: 0px 0px 20px 20px;
+    border: 3px solid black;
+}
+
+.top-top-right-bottom {
+    display: flex;
+}
+
+.top-top-right-bottom > h2 {
+    margin-top: 12px;
+    width: 190px;
+}
+
+.likes3 {
+    display: flex;
+    justify-content: end;
+    width: 500px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.likes3 > button {
+    width: 75px;
+    font-size: large;
+    height: 40px;
+    margin: 20px 20px 30px 30px;
+    background-color: #FFD966;
+    box-shadow: 3px 3px 3px black;
+    ;
+}
+
+.likes3 > h2 {
+    margin-top: 10px;
+}
+
+.top-top-bottom-bottom > p{
+    width: 550px;
+    text-align: left;
+    padding: 15px;
+    margin-left: 30px;
+}
